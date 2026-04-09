@@ -76,16 +76,10 @@ punycode spoofing, and homograph attacks.
 ---
 
 ## 🧠 How It Works
-URL Input
-↓
-Playwright Headless Browser (screenshot capture)
-↓
-224×224 px Preprocessed Image
-↓
-DeiT-Small Vision Transformer (12 blocks, 6-head attention)
-↓
-Binary Classification Head
-↓
-PHISHING ⚠️  /  LEGITIMATE ✅
-+
-Attention Rollout Heatmap 🧠
+1)URL Input
+2)Playwright Headless Browser (screenshot capture)
+3)224×224 px Preprocessed Image
+4)DeiT-Small Vision Transformer (12 blocks, 6-head attention)
+5)Binary Classification Head
+6)PHISHING ⚠️  /  LEGITIMATE ✅
+7)Attention Rollout Heatmap 🧠
